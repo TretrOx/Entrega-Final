@@ -26,15 +26,16 @@
     font-size: 25px;
 } */
 
-/* .imagenes{
+.imagenes{
     display: flex;
     justify-content: center;
     gap: 40px;
     grid-column:initial;
-} */
+}
 
 .imagenes{
     display: flexbox;
+    flex-wrap: wrap;
     width: 70%;
     max-width: 1000px;
     min-width: 320px;
